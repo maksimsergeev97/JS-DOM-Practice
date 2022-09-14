@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function changeContent (item) {
         const mainBlock = document.querySelector('.main');
-        mainBlock.innerHTML = `<img src="${item.img}" alt="crustula-planet" class="main__img">
+        mainBlock.innerHTML = `<img src="${item.img}" alt="${item.altText}" class="main__img">
                                <h2 class="title">${item.title}</h2>
                                <p class="subtitle">inhabitants of the planet: ${item.subtitle}</p>
                                <p class="descr">${item.descr}</p>`
